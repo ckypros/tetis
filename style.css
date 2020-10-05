@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+}
+
+.grid-container {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    box-shadow: 0px 6px 0px #2b638f, 0px 3px 0px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+}
+
+.cell {
+    height: 40px;
+    width: 40px;
+    
+}
+
+.tetromino {
+    /* background-color: teal;
+    border: solid 2px black; 
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 1px 2px aqua; */
+
+    background-color: #538fbe;
+    border: 1px solid #2d6898;
+    background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    box-sizing: border-box;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(73,132,180)),
+        color-stop(1, rgb(97,155,203))
+    );
+    border-radius: 1px;
+    box-shadow: 0px 3px 0px #2b638f, 0px 3px 5px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+
+}
+
+.preview-container {
+    margin-left: 50px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.preview-cell {
+    height: 40px;
+    width: 40px;
+}
